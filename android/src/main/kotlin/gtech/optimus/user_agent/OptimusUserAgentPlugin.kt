@@ -62,7 +62,7 @@ class OptimusUserAgentPlugin : FlutterPlugin, MethodCallHandler {
             applicationName =
                 applicationContext.applicationInfo.loadLabel(applicationContext.packageManager)
                     .toString()
-            applicationVersion = info.versionName
+            applicationVersion = info.versionName ?: ""
             buildNumber = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
                 info.longVersionCode
             } else {
