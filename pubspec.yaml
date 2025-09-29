@@ -1,7 +1,7 @@
 name: optimus_user_agent
 description: "Retrieve Android/iOS device user agents in Flutter."
-version: 1.0.1
-homepage:
+version: 1.0.0
+homepage: 'https://gtech.digital'
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
@@ -16,6 +16,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  test: 
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
