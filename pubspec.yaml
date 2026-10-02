@@ -1,7 +1,7 @@
 name: optimus_user_agent
 description: "Retrieve Android/iOS device user agents in Flutter."
 version: 2.0.0
-homepage:
+homepage: https://gtech.digital/
 
 environment:
   sdk: '>=3.12.0 <4.0.0'
