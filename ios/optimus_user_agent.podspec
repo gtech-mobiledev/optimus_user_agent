@@ -13,7 +13,9 @@ A new Flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Gtech Digital Asia' => 'Ultron-MobileApp@gtech.digital' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'optimus_user_agent/Sources/optimus_user_agent/**/*.{h,m}'
+  s.public_header_files = 'optimus_user_agent/Sources/optimus_user_agent/include/optimus_user_agent/*.h'
+  s.frameworks = 'UIKit', 'WebKit'
   s.dependency 'Flutter'
   s.platform = :ios, '11.0'
 

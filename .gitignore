@@ -1,4 +1,6 @@
 # Miscellaneous
+.build/
+.swiftpm/
 *.class
 *.log
 *.pyc
